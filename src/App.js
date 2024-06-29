@@ -3,6 +3,7 @@ import './App.css';
 import ViewAllBus from './components/ViewAllBus';
 import AddBus from './components/AddBus';
 import SearchBus from './components/SearchBus';
+import DeleteBus from './components/DeleteBus';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ViewAllBus/>
       <AddBus/>
       <SearchBus/>
+      <DeleteBus/>
     </div>
   );
 }
