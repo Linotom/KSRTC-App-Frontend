@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const ViewAllBus = () => {
   return (
     <div>
+        <Header/>
         <table class="table">
   <thead>
     <tr>
